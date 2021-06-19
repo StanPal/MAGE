@@ -1,0 +1,31 @@
+{
+  "GameObject": {
+    "Components": {
+      "TransformComponent": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        }
+      },
+      "ColliderComponent": {
+        "Center": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "Extend": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 4.0
+        }
+      }
+    }
+  }
+}

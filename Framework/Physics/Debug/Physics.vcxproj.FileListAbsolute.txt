@@ -1,0 +1,2 @@
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\Physics.pdb
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Framework\Physics\Debug\Physics.pdb

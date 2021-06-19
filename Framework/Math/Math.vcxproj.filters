@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{f58752dc-5b99-4fd2-8570-9544fddaa356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{fb05f945-9557-4a2e-bb38-2932e2215bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\LinearAlgebra">
+      <UniqueIdentifier>{20887395-98dd-4476-9d3e-11274e4acd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Geometry">
+      <UniqueIdentifier>{129a34c2-dd88-430b-8003-31429a3ffbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Meta">
+      <UniqueIdentifier>{0576d18e-1a87-4d3c-8565-320cfe98910c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Meta">
+      <UniqueIdentifier>{b437172c-446d-481f-85f1-d11f98802ec2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EngineMath.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Constants.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Matrix4.h">
+      <Filter>Inc\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Quaternion.h">
+      <Filter>Inc\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Vector2.h">
+      <Filter>Inc\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Vector3.h">
+      <Filter>Inc\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Vector4.h">
+      <Filter>Inc\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AABB.h">
+      <Filter>Inc\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\OBB.h">
+      <Filter>Inc\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Plane.h">
+      <Filter>Inc\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Ray.h">
+      <Filter>Inc\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Sphere.h">
+      <Filter>Inc\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MetaRegistration.h">
+      <Filter>Inc\Meta</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EngineMath.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetaRegistration.cpp">
+      <Filter>Src\Meta</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

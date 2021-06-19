@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{8b438cb9-c188-47a5-a7f7-05960beea496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5a392ec1-653e-43cc-b2c3-a6a863cef310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Terrain">
+      <UniqueIdentifier>{ba6080ee-96ba-42d7-af06-f5ec6402174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\App">
+      <UniqueIdentifier>{9dec805d-e5c1-47f5-bd1a-9d6d5d3e43de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\App">
+      <UniqueIdentifier>{c9af4acb-f626-4276-b022-75b376aa9cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Terrain">
+      <UniqueIdentifier>{2e6c3928-0396-49df-8156-6c7380e74f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\PCH">
+      <UniqueIdentifier>{1e4b4894-e78f-44bf-966b-770a5a571336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\World">
+      <UniqueIdentifier>{577437d9-6deb-46d6-b6b0-808d19aee641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\World">
+      <UniqueIdentifier>{34f3f40d-14c9-4ee6-ac86-cf5640c104d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Components">
+      <UniqueIdentifier>{3f716d62-089e-4b86-b14f-0e3d84dbc667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Components">
+      <UniqueIdentifier>{ed5c5719-3761-495b-b122-4fe1575f7245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Meta">
+      <UniqueIdentifier>{e9954f40-00ca-49b6-84c0-e4c2b7234d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Services">
+      <UniqueIdentifier>{068bd300-158b-49e0-9ec2-befc3d284594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Services">
+      <UniqueIdentifier>{4c2d0865-fd17-4fa3-8e1d-62944bcef867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Skydome">
+      <UniqueIdentifier>{528ec5a9-93ad-49ff-a150-b74ad37fbbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Skydome">
+      <UniqueIdentifier>{da1ba3bd-1ca8-479c-aa10-360cec984841}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MAGE.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AppState.h">
+      <Filter>Inc\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\App.h">
+      <Filter>Inc\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Terrain\Terrain.h">
+      <Filter>Inc\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameObject.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameObjectFactory.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GameWorld.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TransformComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ColliderComponent.h">
+      <Filter>Inc\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Component.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Service.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetaRegistration.h">
+      <Filter>Src\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CameraService.h">
+      <Filter>Inc\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Skydome.h">
+      <Filter>Inc\Skydome</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\MAGE.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\App.cpp">
+      <Filter>Src\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Terrain\Terrain.cpp">
+      <Filter>Src\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObject.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameWorld.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObjectFactory.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TransformComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ColliderComponent.cpp">
+      <Filter>Src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Component.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Service.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetaRegistration.cpp" />
+    <ClCompile Include="Src\CameraService.cpp">
+      <Filter>Src\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Skydome.cpp">
+      <Filter>Src\Skydome</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

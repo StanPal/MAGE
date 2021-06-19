@@ -1,0 +1,2 @@
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\MAGEEngine.pdb
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Engine\MAGEEngine\Debug\MAGEEngine.pdb

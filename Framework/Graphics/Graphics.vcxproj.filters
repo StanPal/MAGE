@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{64cbace5-0b31-4880-aadf-d4f4ac64eec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{62c8a47b-de4c-4d74-96e7-a4ee300ad30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Animation">
+      <UniqueIdentifier>{80386d86-5d60-42fa-9ac7-6bfe438eeca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Animation">
+      <UniqueIdentifier>{2bbdc1a6-49d9-4196-8c1b-cf9db4ff1b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Camera">
+      <UniqueIdentifier>{41887009-4245-4302-8edd-b2cc2fe65e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Camera">
+      <UniqueIdentifier>{dc8655af-298e-4655-a0ec-e92f4a49cc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Renderer">
+      <UniqueIdentifier>{766305f8-4d27-47c9-8dc3-be03ea709159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Renderer">
+      <UniqueIdentifier>{ea10302f-a762-4685-a63d-21b2074bd247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Mesh">
+      <UniqueIdentifier>{a2d42952-6d16-4aea-9b36-d4b66aa5f0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Mesh">
+      <UniqueIdentifier>{3cb3f146-85dc-4a09-8d13-4e3e5f228913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Material">
+      <UniqueIdentifier>{521d2009-7efa-46ec-b917-9b469d84316e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Material">
+      <UniqueIdentifier>{5c86386d-0bce-49af-820f-c3de8885eb2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GraphicsSystem.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Graphics.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ConstantBuffer.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\D3DUtil.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\PixelShader.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\DebugUI.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\BlendState.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RenderTarget.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\OBJLoader.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Camera.h">
+      <Filter>Inc\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SimpleDraw.h">
+      <Filter>Inc\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Mesh.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MeshBuilder.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MeshBuffer.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VertexTypes.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Colors.h">
+      <Filter>Inc\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\LightTypes.h">
+      <Filter>Inc\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Sampler.h">
+      <Filter>Inc\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Texture.h">
+      <Filter>Inc\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Material.h">
+      <Filter>Inc\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\KeyFrame.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Animation.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationBuilder.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Model.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\MeshIO.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Bone.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Skeleton.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SkeletonIO.h">
+      <Filter>Inc\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationClip.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationSet.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationIO.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Animator.h">
+      <Filter>Inc\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\GraphicsSystem.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\D3DUtil.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ConstantBuffer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PixelShader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VertexShader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DebugUI.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BlendState.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderTarget.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\OBJLoader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SimpleDraw.cpp">
+      <Filter>Src\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshBuilder.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshBuffer.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sampler.cpp">
+      <Filter>Src\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>Src\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KeyFrame.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Animation.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationBuilder.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Model.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshIO.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Skeleton.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SkeletonIO.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationClip.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationIO.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Animator.cpp">
+      <Filter>Src\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

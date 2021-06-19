@@ -1,0 +1,17 @@
+﻿  Precompiled.cpp
+  BlockAllocator.cpp
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Framework\Core\Src\BlockAllocator.cpp(71,27): warning C4133: '-': incompatible types - from 'void *' to 'void **'
+  DebugUtil.cpp
+  MetaArray.cpp
+  MetaClass.cpp
+  MetaField.cpp
+  MetaPointer.cpp
+  MetaRegistration.cpp
+  MetaRegistry.cpp
+  MetaType.cpp
+  PlatformUtil.cpp
+  TimeUtil.cpp
+  Window.cpp
+  WindowMessageHandler.cpp
+  Generating Code...
+  Core.vcxproj -> C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\Core.lib

@@ -1,0 +1,2 @@
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\Graphics.pdb
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Framework\Graphics\Debug\Graphics.pdb

@@ -1,0 +1,15 @@
+﻿  App.cpp
+  CameraService.cpp
+  ColliderComponent.cpp
+  GameObject.cpp
+  GameObjectFactory.cpp
+  GameWorld.cpp
+  MAGE.cpp
+  MetaRegistration.cpp
+  Precompiled.cpp
+  Service.cpp
+  Skydome.cpp
+  Terrain.cpp
+  TransformComponent.cpp
+  Generating Code...
+  MAGEEngine.vcxproj -> C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\MAGEEngine.lib

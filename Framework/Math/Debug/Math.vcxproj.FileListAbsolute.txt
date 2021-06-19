@@ -1,0 +1,2 @@
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Debug\Math.pdb
+C:\Users\Stan Gerard Palisoc\Desktop\MAGE\Framework\Math\Debug\Math.pdb

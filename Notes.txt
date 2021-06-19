@@ -1,0 +1,9 @@
+Blending 
+
+Final color = sourceColor * sourceBlend + destinationColor * definitionblend
+
+PostProcessing 
+
+-Funnel vertex info into the graphics card(texture,costancs,renderstates) 
+--Shaders
+-What comes out is pixels 
